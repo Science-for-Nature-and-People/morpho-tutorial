@@ -27,9 +27,12 @@ Next, users will want to set the preferences for their profile by selecting the 
 
 ![][new_profile_4]
 
-Any user who would like a test environment for practicing data entry can use the dev URL (**https://dev.nceas.ucsb.edu/knb/metaca**), as below. However, be aware that there is no guarantee that the content uploaded in this scratch space will be available or secure, so it would be best to test using public data only. Additionally, the server may be down periodically for short amounts of time. For actual use, users should enter the 
+Any user who would like a test environment for practicing data entry can use the dev URL (**https://dev.nceas.ucsb.edu/knb/metaca**), as below. However, be aware that there is no guarantee that the content uploaded in this scratch space will be available or secure, so it would be best to test using public data only. Additionally, the server may be down periodically for short amounts of time. 
 
 ![][new_profile_5]
+
+For actual use with the KNB, users should enter the following link:
+**https://knb.ecoinformatics.org/knb/metacat**
 
 Once those preferences are set users may login to their profile using their profile name and the same password used to access their KNB account.  To receive a more detailed introduction and overview of Morpho, users can click on the ‘Help’ tab and view the “Morpho User Guide”, “Intro to Metadata”, and “EML Specifications” documents.  
 
