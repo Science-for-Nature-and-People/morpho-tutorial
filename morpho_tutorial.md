@@ -15,7 +15,7 @@ To create a new profile, on the first page, users will enter a profile name and 
 
 ![][new_profile_1]
 
-On the next page users will enter a username. This username must be the same username as the KNB account. The username can also be the same as the Morpho profile name, as long as it matches the KNB account. For **Organization** users should select **unaffiliated** from the dropdown options.  
+On the next page users will enter a username. This username must be the same username as the KNB account. The username can also be the same as the Morpho profile name, as long as it matches the KNB account. *For **Organization** users should select **unaffiliated** from the dropdown options.*
 
 ![][new_profile_2]
 
