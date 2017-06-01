@@ -1,12 +1,13 @@
-#Tips for using Morpho to test capabilities such as Batch Upload or using the Geospatial Descriptors  
+Tips for using Morpho to test capabilities such as Batch Upload or using the Geospatial Descriptors  
+======================================================
 
-##Downloading Morpho  
+## Downloading Morpho  
 Download the latest version of Morpho, [Morpho 1.11.0][], from the KNB website. To run Morpho, users must have [Java 1.7][] or later installed on their computers.  
 
 [Morpho 1.11.0]: https://knb.ecoinformatics.org/#tools/morpho
 [Java 1.7]: http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
 
-##Creating a User Account  
+## Creating a User Account  
 Before creating a Morpho profile, users must create a KNB account through the [KNB signup page][]. When creating a KNB account, fill out all of the necessary information. In almost all cases, users should select from the dropdown **KNB/AOOS** as their organization. Once a KNB account is created, users are ready to create a Morpho profile. Open the Morpho program and select the **Create a new profile…** option on the startup screen.  
 
 **Note**: Users do not need to log in to create metadata for personal use only. This metadata can be saved locally instead of in the Metacat repository.
@@ -46,7 +47,7 @@ To receive a more detailed introduction and overview of Morpho, users can click 
 [new_profile_4]: ./morpho_images/new_profile_4.png
 [new_profile_5]: ./morpho_images/new_profile_5.png
 
-##Creating a New Data Package  
+## Creating a New Data Package  
 
 A new data package must be created to add data or metadata that is not part of an already existing package. To create a new data package, users may click the **Create a new data package…** option or the **new data package** icon.  
 
@@ -59,7 +60,7 @@ Both options will lead the user to the New Data Package Wizard where users can f
 [new_package_1]: ./morpho_images/new_package_1.png
 [new_package_2]: ./morpho_images/new_package_2.png
 
-##Batch Data Uploads  
+## Batch Data Uploads  
 
 If importing many similar data tables into one data package, it is best to first create a **metadata template** by entering all of the metadata information.  This creates the data package that users can now import a data table into. Once this is done, users can duplicate the data package (**File -> Save Duplicate**), change any general metadata, and then replace the original table with a new, but very similar, table (**Data -> Replace data**). Please be sure to verify that the attribute-level metadata still lines up exactly with the new table.  
 
@@ -69,7 +70,7 @@ If importing many similar data tables into one data package, it is best to first
 [batch_data_1]: ./morpho_images/batch_data_1.png
 [batch_data_2]: ./morpho_images/batch_data_2.png
 
-##Creating Multiple Data Packages with Similar Metadata
+## Creating Multiple Data Packages with Similar Metadata
 
 Users who would like to create multiple data packages with similar metadata may first want to create a template using the New Data Package Wizard. Once that data package has been created, users have the option of duplicating that data package, as shown in the step above. Once duplicated, the data package is saved locally under a new identifier. Users can then make edits to the metadata in the Morpho Editor (**Documentation -> Add/Edit Documentation**).  
 
