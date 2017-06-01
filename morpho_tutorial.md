@@ -1,13 +1,49 @@
 Morpho Quick Starting Guide
 ======================================================
 
-## Downloading Morpho  
+## Context
+
+The goal of this tutorial is to introduce tools to help you to preserve and share your data.
+
+![DataONE Data Lifecycle, coutesy od DataONE](./morpho_images/DataONE_data_cycle.png)
+*See also: <https://www.dataone.org/education-modules>*
+
+We will see how to best describe and document your data using a standardized **metdata format** called **Ecological Metadata Language ([EML](https://knb.ecoinformatics.org/#external//emlparser/docs/index.html))**. In a nutshell, EML is a xml document using a specific schema.
+
+Describing your data is only part of the data preservation process, you also need to deposit your data and metadata (often called a **data package**) in a **long-term data repository** to enable others to discover and reuse your data. In general, data repositories have the capacity to leverage standardized metadata to expose information about a specific set of data to the user. It also enables data discovery through search engine by mining the metadata content. In this tutorial, we are going to use NCEAS data repository the Knowledge Network for Biocomplexity ([KNB](https://knb.ecoinformatics.org/#)).
+
+The KNB is a member node of the NSF founded **Data Observation Network for Earth ([DataONE](https://www.dataone.org/))**. DataONE is a confederation of data repositories (called member nodes) - currently 36 and counting.
+
+![DataOne Member nodes, courtesy of DataONE](./morpho_images/DataONE_member_nodes.png) 
+
+DataONE is a great tool for data discovery allowing you to search for data across all the member data repositories: <https://search.dataone.org> 
+
+![DataONe content Statistics, courtesy of DataONE](./morpho_images/DataONe_content.png)
+
+
+## Tutorial
+
+We are going to go over two tools that we can use to assist us in creating the EML metadata document: 
+
+- Webform
+- Desktop application: Morpho 
+
+![Webform amd the Morpho software](./morpho_images/archiving_getting started.png) 
+
+Then we will upload our data to the developer site of the KNB (sandbox): <https://dev.nceas.ucsb.edu/#>
+
+Note that there are also other tools available to create EML, data packages and interact with DataONE API, such as the R packages on rOpenSci: <https://ropensci.org/packages/>
+
+
+## Downloading Morpho 
+ 
 Download the latest version of Morpho, [Morpho 1.11.0][], from the KNB website. To run Morpho, users must have [Java 1.7][] or later installed on their computers.  
 
 [Morpho 1.11.0]: https://knb.ecoinformatics.org/#tools/morpho
 [Java 1.7]: http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
 
 ## Creating a User Account  
+
 Before creating a Morpho profile, users must create a KNB account through the [KNB signup page][]. When creating a KNB account, fill out all of the necessary information. In almost all cases, users should select from the dropdown **KNB/AOOS** as their organization. Once a KNB account is created, users are ready to create a Morpho profile. Open the Morpho program and select the **Create a new profile…** option on the startup screen.  
 
 **Note**: Users do not need to log in to create metadata for personal use only. This metadata can be saved locally instead of in the Metacat repository.
