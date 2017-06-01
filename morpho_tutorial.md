@@ -18,7 +18,7 @@ The KNB is a member node of the NSF founded **Data Observation Network for Earth
 
 DataONE is a great tool for data discovery allowing you to search for data across all the member data repositories: <https://search.dataone.org> 
 
-![DataONe content Statistics, courtesy of DataONE](./morpho_images/DataONe_content.png)
+![DataONe content Statistics, courtesy of DataONE](./morpho_images/DataONE_content.png)
 
 
 ## Tutorial
