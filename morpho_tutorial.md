@@ -1,4 +1,4 @@
-Tips for using Morpho to test capabilities such as Batch Upload or using the Geospatial Descriptors  
+Morpho Quick Starting Guide
 ======================================================
 
 ## Downloading Morpho  
